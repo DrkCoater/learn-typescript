@@ -1,6 +1,5 @@
-// let count = 4;
+let count = 4;
 // count = "a";
-
 
 // let a: string;
 // a = 1;
@@ -12,13 +11,17 @@
 // let f: any[] = [1, true, "aa", false];
 
 // enum
-enum Color { Red = 0, Green = 1, Blue=2 };
-let backgroundColor = Color.Blue;
-let foregroundColor = Color.Red;
+// enum Color {
+//   Red = 0,
+//   Green = 1,
+//   Blue = 2
+// }
+// let backgroundColor = Color.Blue;
+// let foregroundColor = Color.Red;
 
-// assertion
-let message;
-message = "abc";
+// // assertion
+// let message;
+// message = "abc";
 
-let startsWithA = (<string>message).lastIndexOf("c");
-let startsWithA_2 = (message as string).lastIndexOf("c");
+// let startsWithA = (<string>message).lastIndexOf("c");
+// let startsWithA_2 = (message as string).lastIndexOf("c");

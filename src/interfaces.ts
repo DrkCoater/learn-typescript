@@ -1,5 +1,3 @@
-
-
 // let drawPoint = (point: {x: number, y: number}) => {
 //   // ...
 // };
@@ -8,19 +6,17 @@
 //   name: "hello"
 // });
 
-
 // custom type
 // pascal naming convension
-interface Point {
-  x: number,
-  y: number
-  // draw: (a: number, b: number) => void
+interface Point1 {
+  x: number;
+  y: number;
+  draw: () => void; // declaration without implementation
 }
 
-
-let drawPoint = (point: Point) => {
-  // ...
-};
+// let drawPoint = (point: Point) => {
+//   // ...
+// };
 
 // drawPoint({
 //   x: 1.2,
